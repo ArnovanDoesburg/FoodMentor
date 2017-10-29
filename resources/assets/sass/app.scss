@@ -1,9 +1,26 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
-
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  background: url("../img/food.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block-categories .btn-primary a {
+  color: #FFF;
+}
+
+.white-background {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.content.white-background {
+  width: 100%;
+}
